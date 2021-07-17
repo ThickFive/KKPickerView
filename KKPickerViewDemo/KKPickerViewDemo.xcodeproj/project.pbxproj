@@ -115,8 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				E6B73D5B26A334C300A4931D /* KKPicker.h */,
-				E6B73D5826A334C300A4931D /* KKPickerViewController */,
 				E6B73D5C26A334C300A4931D /* KKPickerView */,
+				E6B73D5826A334C300A4931D /* KKPickerViewController */,
 				E6B73D6926A334C300A4931D /* KKDatePicker */,
 				E6B73D7026A334C300A4931D /* KKAddressPicker */,
 			);
@@ -135,18 +135,18 @@
 		E6B73D5C26A334C300A4931D /* KKPickerView */ = {
 			isa = PBXGroup;
 			children = (
-				E6B73D5D26A334C300A4931D /* KKPickerTableView.m */,
-				E6B73D5E26A334C300A4931D /* KKPickerColumnView.m */,
-				E6B73D5F26A334C300A4931D /* KKPickerConfig.h */,
+				E6B73D6426A334C300A4931D /* KKPickerView.h */,
 				E6B73D6026A334C300A4931D /* KKPickerView.m */,
+				E6B73D6626A334C300A4931D /* KKPickerColumnView.h */,
+				E6B73D5E26A334C300A4931D /* KKPickerColumnView.m */,
+				E6B73D6326A334C300A4931D /* KKPickerTableView.h */,
+				E6B73D5D26A334C300A4931D /* KKPickerTableView.m */,
+				E6B73D6826A334C300A4931D /* KKPickerTableViewCell.h */,
 				E6B73D6126A334C300A4931D /* KKPickerTableViewCell.m */,
 				E6B73D6226A334C300A4931D /* KKPickerTitleView.h */,
-				E6B73D6326A334C300A4931D /* KKPickerTableView.h */,
-				E6B73D6426A334C300A4931D /* KKPickerView.h */,
-				E6B73D6526A334C300A4931D /* KKPickerConfig.m */,
-				E6B73D6626A334C300A4931D /* KKPickerColumnView.h */,
 				E6B73D6726A334C300A4931D /* KKPickerTitleView.m */,
-				E6B73D6826A334C300A4931D /* KKPickerTableViewCell.h */,
+				E6B73D5F26A334C300A4931D /* KKPickerConfig.h */,
+				E6B73D6526A334C300A4931D /* KKPickerConfig.m */,
 			);
 			path = KKPickerView;
 			sourceTree = "<group>";
@@ -154,12 +154,12 @@
 		E6B73D6926A334C300A4931D /* KKDatePicker */ = {
 			isa = PBXGroup;
 			children = (
-				E6B73D6A26A334C300A4931D /* NSDate+KKPicker.m */,
 				E6B73D6B26A334C300A4931D /* KKDatePicker.h */,
-				E6B73D6C26A334C300A4931D /* NSCalendar+KKPicker.h */,
-				E6B73D6D26A334C300A4931D /* NSCalendar+KKPicker.m */,
 				E6B73D6E26A334C300A4931D /* KKDatePicker.m */,
 				E6B73D6F26A334C300A4931D /* NSDate+KKPicker.h */,
+				E6B73D6A26A334C300A4931D /* NSDate+KKPicker.m */,
+				E6B73D6C26A334C300A4931D /* NSCalendar+KKPicker.h */,
+				E6B73D6D26A334C300A4931D /* NSCalendar+KKPicker.m */,
 			);
 			path = KKDatePicker;
 			sourceTree = "<group>";
@@ -167,11 +167,11 @@
 		E6B73D7026A334C300A4931D /* KKAddressPicker */ = {
 			isa = PBXGroup;
 			children = (
-				E6B73D7126A334C300A4931D /* KKAddressModel.h */,
-				E6B73D7226A334C300A4931D /* KKAddressPicker.m */,
-				E6B73D7326A334C300A4931D /* KKCity.json */,
 				E6B73D7426A334C300A4931D /* KKAddressPicker.h */,
+				E6B73D7226A334C300A4931D /* KKAddressPicker.m */,
+				E6B73D7126A334C300A4931D /* KKAddressModel.h */,
 				E6B73D7526A334C300A4931D /* KKAddressModel.m */,
+				E6B73D7326A334C300A4931D /* KKCity.json */,
 			);
 			path = KKAddressPicker;
 			sourceTree = "<group>";
